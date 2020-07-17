@@ -16,15 +16,16 @@ function FeetToMile( feet ) {
 
 }
 
-console.log(FeetToMile(10));  // Provide Negative Value for Validation
+console.log(FeetToMile(10));  // Provide Value for Validation
 
 // Feet to mile function  ends 
 
 
 
+
 // WoodCalculator Starts 
 
-function WoodCalculator(chair,table,bed) {
+function WoodCalculator( chair, table, bed ) {
 
     if(chair < 0 || table < 0 || bed <0 ) {  // Check that the value is positive or Negative
 
@@ -43,6 +44,8 @@ function WoodCalculator(chair,table,bed) {
 console.log( WoodCalculator ( 12, 0, 23 ) ) ; // Provide value for checking is wright or wrong 
 
 // WoodCalculator ends 
+
+
 
 
 
@@ -93,6 +96,8 @@ function BrickCalculator ( storied ) {
 console.log( BrickCalculator(40));
 
 // BrickCalculator ends 
+
+
 
 
 
