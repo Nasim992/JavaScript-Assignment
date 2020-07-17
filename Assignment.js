@@ -1,6 +1,6 @@
 // Feet to mile function  starts 
 
-function FeetToMile( feet ) {
+function feetToMile( feet ) {
 
     if( feet<0 ) {   // Check positive or negative value 
 
@@ -16,7 +16,7 @@ function FeetToMile( feet ) {
 
 }
 
-console.log(FeetToMile(10));  // Provide Value for Validation
+console.log(feetToMile(10));  // Provide Value for Validation
 
 // Feet to mile function  ends 
 
@@ -25,7 +25,7 @@ console.log(FeetToMile(10));  // Provide Value for Validation
 
 // WoodCalculator Starts 
 
-function WoodCalculator( chair, table, bed ) {
+function woodCalculator( chair, table, bed ) {
 
     if(chair < 0 || table < 0 || bed <0 ) {  // Check that the value is positive or Negative
 
@@ -41,7 +41,7 @@ function WoodCalculator( chair, table, bed ) {
     return ( chairNeedWood + tableNeedWood + bedNeedWood );
 }
 
-console.log( WoodCalculator ( 12, 0, 23 ) ) ; // Provide value for checking is wright or wrong 
+console.log( woodCalculator ( 12, 0, 23 ) ) ; // Provide value for checking is wright or wrong 
 
 // WoodCalculator ends 
 
@@ -51,7 +51,7 @@ console.log( WoodCalculator ( 12, 0, 23 ) ) ; // Provide value for checking is w
 
 // BrickCalculator starts 
 
-function BrickCalculator ( storied ) {
+function brickCalculator ( storied ) {
 
     if ( storied < 0 ) {  // Check that the value is positive or not.Here, Checking Validation
 
@@ -93,7 +93,7 @@ function BrickCalculator ( storied ) {
     
 }
 
-console.log( BrickCalculator(40));
+console.log( brickCalculator(25));
 
 // BrickCalculator ends 
 
@@ -104,7 +104,7 @@ console.log( BrickCalculator(40));
 // Tiny Friends Starts 
 
 
-function TinyFriends( arr ) {
+function tinyFriends( arr ) {
 
     if(arr.length== 0) { // Checking that the array is empty or not 
 
@@ -129,8 +129,8 @@ function TinyFriends( arr ) {
 
     }
 }
-let tinyFriends = ['NasimHossain','jhankarVai','Manik','Rasel'] ;
+let tinyFriendsArray = ['NasimHossain','jhankarVai','Manik','Rasel'] ;
 
-console.log(TinyFriends(tinyFriends ) ) ; // Passing Array with Friends Name 
+console.log(tinyFriends(tinyFriendsArray ) ) ; // Passing Array with Friends Name 
 
 // Tiny Friends Ends 
